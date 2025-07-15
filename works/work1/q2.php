@@ -4,3 +4,10 @@
 $num = -5;
 
 // TODO: ここにコードを追記
+if ($num > 10) {
+    echo "正の数です\n";
+} elseif ($num == 10) {
+    echo "ゼロです\n";
+} else {
+    echo "負の数です\n";
+}
