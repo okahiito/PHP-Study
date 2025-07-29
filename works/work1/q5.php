@@ -5,10 +5,8 @@ $num = 2;
 
 // TODO: ここにコードを追記
 
-if (true) {
+if ($num % 3 == 0) {
     echo "3の倍数です\n";
-}
-
-if (false) {
+} else {
     echo "3の倍数ではありません\n";
 }

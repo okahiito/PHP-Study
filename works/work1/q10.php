@@ -5,9 +5,9 @@
 $num = -3;
 
 // TODO: ここにコードを追記
-if ($num > 10) {
+if ($num > 1) {
     echo "正の数です\n";
-} elseif ($num == 10) {
+} elseif ($num == 0) {
     echo "ゼロです\n";
 } else {
     echo "負の数です\n";
