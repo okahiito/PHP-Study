@@ -9,3 +9,8 @@
 // 出力例 「johnの評価は良です」
 
 $scores = array("John" => 85, "Jane" => 92, "Jim" => 78);
+
+foreach ($scores as $John => $良) {
+    echo "$John = $良\n";
+    echo "scoresの評価は良です\n";
+}
