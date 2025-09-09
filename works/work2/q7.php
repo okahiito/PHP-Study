@@ -10,7 +10,15 @@
 
 $scores = array("John" => 85, "Jane" => 92, "Jim" => 78);
 
-foreach ($scores as $John => $良) {
-    echo "$John = $良\n";
-    echo "scoresの評価は良です\n";
+foreach ($scores as $name => $score) {
+    if ($score >= 90) {
+        $evaluation = "優";
+    } elseif ($score >= 80) {
+        $evaluation = "良";
+    } elseif ($score >= 70) {
+        $evaluation = "可";
+    } else {
+        $evaluation = "不可";
+    }
+    echo $name . "の評価は" . $evaluation . "です<br>";
 }
